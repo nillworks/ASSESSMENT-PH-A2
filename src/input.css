@@ -35,7 +35,7 @@
 
 @layer utilities {
   .containers {
-    @apply max-w-[1440px] mx-auto;
+    @apply max-w-[1360px] mx-auto;
   }
   body {
     @apply font-primaryFont;
@@ -58,6 +58,12 @@
   }
   .borders {
     border: 1px solid #00ff88;
+  }
+  .flexBasisLeft {
+    flex-basis: 30%;
+  }
+  .flexBasisRight {
+    flex-basis: 70%;
   }
   #hero_area {
     max-width: 100%;
