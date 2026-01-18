@@ -23,7 +23,7 @@
   <header id="header_area">
 
 
-    <nav class="bg-bgPrimary border-b border-gray-800">
+    <nav class="bg-bgPrimary border-b border-bgSecondary">
       <div class="containers mx-auto  text-white flex items-center
        justify-between py-6 px-2">
 
@@ -63,8 +63,9 @@
           <!-- images and Icons -->
           <div id="bgimages" class="relative">
             <img src="./images/assets/microphone.png" alt="" class="imagesCustomWidth">
-            <div class="absolute top-0 right-0 sm:top-4 sm:right-4 shadow-lg">
-              <span class="bg-headingExtra py-2 px-4 rounded-full">NEW</span>
+            <div class="absolute top-0 right-0 sm:top-4 sm:right-4 ">
+              <span class="bg-headingExtra text-[#1A0B2E] py-2 px-4 rounded-full shadow-sm
+                shadow-headingExtra">NEW</span>
             </div>
           </div>
 
@@ -177,7 +178,7 @@
             </div>
 
             <!-- Details -->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col justify-center gap-4">
               <h2 class="">Premium Audio Quality</h2>
               <p class="opacitys">Experience crystal-clear sound with professional-grade recording equipment and expert
                 audio
@@ -339,7 +340,7 @@
 
     <!-- Meet the Host Section -->
     <Section id="" class="bg-bgPrimary pt-15 pb-10">
-      <div class="containers mx-auto flex flex-col gap-10 px-3">
+      <div class="containers mx-auto flex flex-col gap-10 px-3 max-w-max">
 
 
         <!-- Title -->
@@ -348,7 +349,7 @@
         </div>
 
         <div class="bg-[#351165]/40 flex flex-col items-center text-center rounded-2xl p-5 gap-4
-         sm:flex-row sm:text-left sm:justify-center lg:justify-around">
+         sm:flex-row sm:text-left sm:justify-center lg:justify-around 2xl:max-w-max">
 
           <!-- left Images Meet  -->
           <div
@@ -394,8 +395,49 @@
 
 
   <!-- Footer Area  -->
-  <footer id="footer_area">
-    <div class="container">
+  <footer id="footer_area" class="bg-bgPrimary">
+    <div class="containers mx-auto py-28 text-white flex flex-col items-center justify-center gap-8">
+
+
+      <!-- Footer Contents -->
+      <div class="flex flex-col items-center justify-center gap-8">
+        <div>
+          <h2 class="text-2xl sm:text-4xl text-white font-bold">Tech<span
+              class="bg-[linear-gradient(135deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] bg-clip-text text-transparent">Wave</span>
+          </h2>
+        </div>
+        <!-- icons and text -->
+        <div class="flex gap-3 items-center sm:gap-8">
+
+          <!-- icons 1 + text -->
+          <div class="flex gap-2 items-center">
+            <img src="./images/assets/spotify.png" alt="icons">
+            <p>Spotify</p>
+          </div>
+          <!-- icons 2 + text -->
+          <div class="flex gap-2 items-center">
+            <img src="./images/assets/apple-podcast.png " alt="icons">
+            <p>Apple Podcasts</p>
+          </div>
+          <!-- icons 3 + text -->
+          <div class="flex gap-2 items-center">
+            <img src="./images/assets/youtube-podcast.png" alt="icons">
+            <p>YouTube</p>
+          </div>
+          <!-- icons 4 + text -->
+          <div class="flex gap-2 items-center">
+            <img src="./images/assets/twitter.png" alt="icons">
+            <p>Twitter</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div>
+        <small class="opacitys">© 2026 TechWave Podcast. All rights reserved.</small>
+      </div>
+
 
     </div>
   </footer>

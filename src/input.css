@@ -71,7 +71,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: cover;
   }
   #bgimages {
     background: url('../images/assets/hero-circle.png');
@@ -101,5 +100,11 @@
     100% {
       transform: translateY(0);
     }
+  }
+
+  #footer_area {
+    background-image: url('../images/assets/footer-bg.png');
+    background-position: center center;
+    background-size: cover;
   }
 }
