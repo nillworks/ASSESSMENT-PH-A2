@@ -59,9 +59,6 @@
   .borders {
     border: 1px solid #00ff88;
   }
-  .widthCustom {
-    width: 1200px;
-  }
   #hero_area {
     max-width: 100%;
     background: url('../images/assets/hero-bg.png');
