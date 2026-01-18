@@ -54,6 +54,7 @@
   }
   .opacitys {
     opacity: 0.9;
+    font-size: 14px;
   }
   .borders {
     border: 1px solid #00ff88;
@@ -62,6 +63,7 @@
     width: 1200px;
   }
   #hero_area {
+    max-width: 100%;
     background: url('../images/assets/hero-bg.png');
     background-position: center center;
     background-repeat: no-repeat;
